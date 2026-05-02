@@ -1,0 +1,14 @@
+name: BountySystem
+main: Twizzle\BountySystem\Loader
+version: 1.0.0
+api: ["5.0.0"]
+author: Twizzle
+description: Bounty system with GUI and EconomyAPI
+depend: EconomyAPI 
+permissions:
+  bountysystem.use:
+    description: Allows using the bounty system
+    default: true
+  bountysystem.admin:
+    description: Allows managing bounties as admin
+    default: op

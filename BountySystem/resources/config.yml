@@ -1,0 +1,26 @@
+settings:
+  min-bounty: 100
+  max-bounty: 100000
+  currency-symbol: "$"
+  allow-self-bounty: false
+  bounty-expire-days: 7
+  history-limit: 50
+
+messages:
+  prefix: "&6[&eBounty&6] &r"
+  bounty-set: "&aYou placed a bounty of {amount} on {target}!"
+  bounty-collected: "&aYou collected the bounty on {target} and earned {amount}!"
+  bounty-cancelled: "&aYour bounty on {target} has been cancelled. {amount} refunded."
+  no-bounty: "&cThis player has no active bounty."
+  already-bounty: "&cThis player already has a bounty. Increase it instead."
+  not-enough-money: "&cYou don't have enough money. Required: {amount}"
+  self-bounty: "&cYou cannot place a bounty on yourself."
+  bounty-too-low: "&cMinimum bounty is {min}."
+  bounty-too-high: "&cMaximum bounty is {max}."
+  player-not-found: "&cPlayer not found."
+  no-history: "&cNo bounty history found."
+  bounty-increased: "&aYou increased the bounty on {target} to {amount}!"
+
+sounds:
+  bounty-placed: "RANDOM_LEVELUP"
+  bounty-collected: "RANDOM_ORBLEVEL"
