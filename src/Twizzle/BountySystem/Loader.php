@@ -30,7 +30,7 @@ class Loader extends PluginBase implements Listener {
             $this->bountyManager->purgeExpired();
         }), 20 * 60 * 10);
 
-        $this->getLogger()->info(TF::GREEN . "BountySystem enabled by Twizzle.");
+        $this->getLogger()->info(TF::GREEN . "BountySystem enabled.");
     }
 
     protected function onDisable(): void {
